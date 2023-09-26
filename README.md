@@ -5,3 +5,5 @@ The code files contained in this repository are used to implement the method 'Fu
 The file Full_Image_Mask_Generation.ipynb implements FITMG while Patchwise_Mask_Generation.ipynb implements RSTMG.
 
 The way of using the codes are elaborated in the respective files.
+
+The dataset for working with the code can be downloaded from the Link: https://drive.google.com/drive/folders/13bDVN1qUpeaAoy3bRO52PEgKJC2PViuH?usp=sharing
