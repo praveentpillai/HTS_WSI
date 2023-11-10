@@ -1,9 +1,5 @@
 # HTS_WSI
 
-The code files contained in this repository are used to implement the method 'Full Image Tissue Mask Segmentation' (FITMG) and 'Region Specific Tissue Mask Generation' (RSTMG) using the 'Scale-based Pixel Transformation Equation' (SPTE) as elaborated in the paper 'Heuristic based Tissue Segmentation of Giga-pixel Whole Slide Images'.
+The code files contained in this repository are used to implement the method 'Full Image Tissue Mask Segmentation' (FITMG) described in the research paper 'Heuristic based Tissue Segmentation of Giga-pixel Whole Slide Images'. FITMG segments the tissue area of a given high-resolution WSI image from its relatively lower resolution thumbnail image. The file Full_Image_Mask_Generation.ipynb implements FITMG and the procedures for adapting the codes are elaborated in the respective files.
 
-The file Full_Image_Mask_Generation.ipynb implements FITMG while Patchwise_Mask_Generation.ipynb implements RSTMG.
-
-The way of using the codes are elaborated in the respective files.
-
-The dataset for working with the code can be downloaded from the Link: https://drive.google.com/drive/folders/13bDVN1qUpeaAoy3bRO52PEgKJC2PViuH?usp=sharing
+The dataset for working with the code can be downloaded from the Link: https://drive.google.com/drive/folders/13bDVN1qUpeaAoy3bRO52PEgKJC2PViuH?usp=sharing. Downloaded it to a directory and appropriately set the path in the file. The code has been tested on the Google Colab environment without any GPU support.
